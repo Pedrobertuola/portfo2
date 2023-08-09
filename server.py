@@ -36,3 +36,12 @@ def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),
     'coffee.ico', mimetype="image/coffee.ico")
  """
+
+"""
+
+ to run the app:
+ export FLASK_APP=server.py
+ export FLASK_ENV=development 
+ flask run
+ 
+ """
