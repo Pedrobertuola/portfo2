@@ -10,6 +10,9 @@ def my_home():
 
 
 
+
+
+
 def write_to_csv(data):
     with open('database.csv', mode='a') as database2:
         email = data['email']
